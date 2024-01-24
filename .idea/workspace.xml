@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f61ecce-6c13-4632-a404-2732422e2900" name="Changes" comment="SpringBoot를 이용한 호털 정보 조회, 생성, 삭제 REST-API 구현">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HotelInfoSearch/WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HotelInfoSearch/controller/ApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HotelInfoSearch/controller/DeleteResultResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HotelInfoSearch/controller/HotelRoomController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HotelInfoSearch/controller/HotelRoomIdResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HotelInfoSearch/controller/HotelRoomRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HotelInfoSearch/controller/HotelRoomResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HotelInfoSearch/controller/HotelRoomType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HotelInfoSearch/controller/ToDollarStringSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HotelInfoSearch/domain/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HotelInfoSearch/domain/HotelSearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/HotelInfoSearch/util/IdGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dmsgp6598"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3a387edd-60c3-4932-af88-beb9ce1ba7c6" />
+        <option name="url" value="https://github.com/dmsgp6598/HotelInfoSearch.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2aypgKfsOQhEt3WhfOVBasrsczN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.WebApplication.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.WebApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/workspace/Project/HotelInfoSearch/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/workspace/Project/HotelInfoSearch/src/main/java/org/HotelInfoSearch/Main.java",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\Project\HotelInfoSearch\src\main\resources" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-f644763e9732-4a89cc43" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\User\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f61ecce-6c13-4632-a404-2732422e2900" name="Changes" comment="" />
+      <created>1705300784385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705300784385</updated>
+      <workItem from="1705300785416" duration="3830000" />
+      <workItem from="1705307110023" duration="1005000" />
+      <workItem from="1705326953671" duration="1502000" />
+      <workItem from="1705328467892" duration="1855000" />
+      <workItem from="1705389706377" duration="6704000" />
+      <workItem from="1705553223712" duration="2496000" />
+      <workItem from="1705556993168" duration="1423000" />
+      <workItem from="1705984190788" duration="6912000" />
+      <workItem from="1705993673587" duration="597000" />
+      <workItem from="1706072857451" duration="10000" />
+      <workItem from="1706075001390" duration="2000" />
+      <workItem from="1706077539591" duration="10000" />
+      <workItem from="1706079509917" duration="2070000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SpringBoot를 이용한 호털 정보 조회, 생성, 삭제 REST-API 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot를 이용한 호털 정보 조회, 생성, 삭제 REST-API 구현" />
+  </component>
+</project>
